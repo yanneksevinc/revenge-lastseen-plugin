@@ -1,0 +1,16 @@
+{
+  "id": "lastseen",
+  "spec": 3,
+  "version": "1.0.0",
+  "type": "plugin",
+  "display": {
+    "name": "Revenge Last Seen",
+    "description": "Shows the last time a tracked user was seen online.",
+    "authors": [
+      {
+        "name": "Yannek Sevinc"
+      }
+    ]
+  },
+  "main": "index.js"
+}
