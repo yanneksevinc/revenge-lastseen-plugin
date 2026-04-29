@@ -2,14 +2,19 @@
 
 A Revenge plugin that tracks the last observed online/offline transition for Discord users and shows the cache in the plugin settings page.
 
-Import base URL for Revenge:
+GitHub Pages repository import URL:
 
-https://raw.githubusercontent.com/yanneksevinc/revenge-lastseen-plugin/main/
+https://yanneksevinc.github.io/revenge-lastseen-plugin/
 
-Current Revenge/Bunny plugin structure used here:
+Direct repository-style import JSON:
+
+https://yanneksevinc.github.io/revenge-lastseen-plugin/repo.json
+
+Current repository structure:
 - repo.json at the repository root
 - builds/lastseen/manifest.json
 - builds/lastseen/index.js
+- docs/ mirror for GitHub Pages sources that publish from /docs
 
 Notes:
 - This only records users after the plugin is installed and while presence updates are received.
