@@ -4,8 +4,8 @@ var plugin = (() => {
   let React = null;
   let RN = null;
 
-  const offlineStatuses = new Set(['offline', 'unknown']);
-  const visibleStatuses = new Set(['online', 'idle', 'dnd', 'mobile', 'streaming', 'invisible']);
+  const offlineStatuses = new Set(['offline', 'unknown', 'invisible']);
+  const visibleStatuses = new Set(['online', 'idle', 'dnd', 'mobile', 'streaming']);
 
   function ensureState() {
     storage.lastSeenByUserId ??= {};
