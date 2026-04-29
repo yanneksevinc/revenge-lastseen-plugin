@@ -1,9 +1,0 @@
-{
-  "$meta": {
-    "name": "Revenge Last Seen",
-    "description": "Tracks locally observed last-seen timestamps from presence transitions."
-  },
-  "lastseen": {
-    "version": "1.0.0"
-  }
-}
