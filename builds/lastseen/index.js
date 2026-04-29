@@ -121,7 +121,7 @@ var plugin = (() => {
 
   function SettingsComponent() {
     if (!ensureUi()) {
-      return React.createElement('Text', null, 'Last Seen cache loaded, but React Native UI modules were not found.');
+      return null;
     }
 
     const { View, Text, ScrollView, StyleSheet } = RN;
